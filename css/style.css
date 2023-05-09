@@ -83,7 +83,7 @@ body {
 }
 
 .animais h2 {
-  font-family: "IBM Plex Mono" monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -131,7 +131,7 @@ body {
 }
 
 .faq-lista dt {
-  font-family: "IBM Plex Mono" monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: bold;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
@@ -264,7 +264,7 @@ body {
 @keyframes slideDown {
   from {
     opacity: 0;
-    min-height: 0;
+    max-height: 0;
   }
   to {
     max-height: 300px;
