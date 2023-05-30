@@ -63,10 +63,10 @@ function initSmoothScroll() {
 
 initSmoothScroll();
 
-function initiAnimacaoScroll() {
+function initAnimacaoScroll() {
   const sections = document.querySelectorAll(".js-scroll");
 
-  if (sections.lenght) {
+  if (sections.length) {
     const windowMetade = window.innerHeight * 0.55;
 
     function animaScroll() {
@@ -80,9 +80,8 @@ function initiAnimacaoScroll() {
         }
       });
     }
+    animaScroll();
   }
-  animaScroll();
-
   window.addEventListener("scroll", animaScroll);
 }
-initiAnimacaoScroll();
+initAnimacaoScroll();
