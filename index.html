@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <nav class="menu js-menu">
+  <nav class="menu" data-menu="suave">
     <ul>
       <li><a href="#animais">Animais</a></li>
       <li><a href="#faq">Faq</a></li>
@@ -23,10 +23,10 @@
     </ul>
   </nav>
 
-  <section class="grid-section animais js-scroll" id="animais">
+  <section class="grid-section animais " data-anime="scroll" id="animais">
     <h1 class="titulo">Animais Fantásticos</h1>
 
-    <ul class="animais-lista js-tabmenu">
+    <ul class="animais-lista" data-tab="menu">
       <li>
         <img src="./img/imagem1.jpg" alt="">
       </li>
@@ -52,8 +52,8 @@
 
     </ul>
 
-    <div class="animais-descricao js-tabcontent">
-      <section>
+    <div class="animais-descricao" data-tab="content">
+      <section data-anime="show-right">
         <h2>Raposa</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit dolor nobis dolorum doloremque. Reprehenderit, voluptatibus. Eveniet rem maiores sequi nostrum, tempore earum nulla similique qui.</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque veniam tempore assumenda.</p>
@@ -61,20 +61,20 @@
 
       </section>
 
-      <section>
+      <section data-anime="show-right">
         <h2>Esquilo</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit dolor nobis dolorum doloremque. Reprehenderit, voluptatibus. Eveniet rem maiores sequi nostrum, tempore earum nulla similique qui.</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque veniam tempore assumenda.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum atque officiis non sit?</p>
       </section>
 
-      <section>
+      <section data-anime="show-right">
         <h2>Urso</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit dolor nobis dolorum doloremque. Reprehenderit, voluptatibus. Eveniet rem maiores sequi nostrum, tempore earum nulla similique qui.</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque veniam tempore assumenda.</p>
       </section>
 
-      <section>
+      <section data-anime="show-down">
         <h2>Lobo</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit dolor nobis dolorum doloremque. Reprehenderit, voluptatibus. Eveniet rem maiores sequi nostrum, tempore earum nulla similique qui.</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque veniam tempore assumenda.</p>
@@ -82,7 +82,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum atque officiis non sit?</p>
       </section>
 
-      <section>
+      <section data-anime="show-down">
         <h2>Macaco</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit dolor nobis dolorum doloremque. Reprehenderit, voluptatibus. Eveniet rem maiores sequi nostrum, tempore earum nulla similique qui.</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque veniam tempore assumenda.</p>
@@ -90,7 +90,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum atque officiis non sit?</p>
       </section>
 
-      <section>
+      <section data-anime="show-down">
         <h2>Leão</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit dolor nobis dolorum doloremque. Reprehenderit, voluptatibus. Eveniet rem maiores sequi nostrum, tempore earum nulla similique qui.</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque veniam tempore assumenda.</p>
@@ -100,10 +100,10 @@
     </div>
   </section>
 
-  <section class="grid-section faq js-scroll" id="faq">
+  <section class="grid-section faq" data-anime="scroll" id="faq">
     <h1 class="titulo">FAQ</h1>
 
-    <dl class="faq-lista js-accordion">
+    <dl class="faq-lista js-accordion" data-anime="accordion">
       <dt>Qual a idade dos animais?</dt>
       <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate architecto necessitatibus ratione repudiandae vel. Consequuntur, unde! Eius expedita iste error cupiditate ad illo id dicta at ipsam consectetur, sunt est.</dd>
 
@@ -119,7 +119,7 @@
 
   </section>
 
-  <section class="grid-section contato js-scroll" id="contato">
+  <section class="grid-section contato" data-anime="scroll" id="contato">
     <h1 class="titulo">Contato</h1>
     <div class="mapa">
       <img src="./img/mapa.png" alt="mapa">
@@ -136,6 +136,7 @@
     <p>Todos os direitos reservados.</p>
   </footer>
 
+  <script src="./animacoes.js"></script>
   <script src="./script.js"></script>
 </body>
 
